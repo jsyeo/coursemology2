@@ -82,7 +82,7 @@ gem 'high_voltage'
 # Paginator for Rails
 gem 'kaminari'
 
-group :development do
+group :my_dev do
   # Spring speeds up development by keeping your application running in the background.
   # Read more: https://github.com/rails/spring
   gem 'spring', platforms: [:ruby]
@@ -100,7 +100,7 @@ group :development do
   gem 'traceroute', require: false
 end
 
-group :development, :test do
+group :my_dev, :test do
   # bundle exec yardoc generates the API under doc/.
   # Use yard stats --list-undoc to find what needs documenting.
   gem 'yard', group: :doc
