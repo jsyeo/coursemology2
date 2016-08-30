@@ -100,7 +100,7 @@ group :my_dev do
   gem 'traceroute', require: false
 end
 
-group :my_dev, :test do
+group :my_dev, :spec do
   # bundle exec yardoc generates the API under doc/.
   # Use yard stats --list-undoc to find what needs documenting.
   gem 'yard', group: :doc
